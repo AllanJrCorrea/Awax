@@ -481,19 +481,15 @@ CSS DE ÁREAS ESCPECÍFICAS
 
 .section-prices-area .section-title {
     margin-top: 30px;
-
 }
-
 .section-prices-area {
     margin-top: -50px;
 }
-
 .section-prices {
     display: flex;
     width: 100vw;
     max-width: 1140px;
-    margin-top: 20px;
-   
+    margin-top: 20px;  
 }
 .section-price {
     flex: 1;
@@ -519,7 +515,6 @@ CSS DE ÁREAS ESCPECÍFICAS
     font-weight: 600;
     font-size: 20px;
     margin-top: 10px;
-   
 }
 .section-price--period {
     text-transform: uppercase;
@@ -527,15 +522,11 @@ CSS DE ÁREAS ESCPECÍFICAS
     color: rgb(34, 33, 33);
     margin-top: 10px;
     margin-bottom: 20px;
-   
 }
-
 .section-price--features {
     font-size: 10px;
     color: rgb(34, 33, 33);
-   
 }
-
 .button-off {
     display: inline-block;
     background-color: rgb(65, 65, 65);
@@ -547,4 +538,280 @@ CSS DE ÁREAS ESCPECÍFICAS
     padding: 10px 30px;
     margin-top: 30px;
     border-radius: 20px;
+}
+
+
+
+
+
+.section-books-area {
+    background-color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-books {
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+}
+.section-books .sliders {
+    width:1000vw;
+    height: 100%;
+    display: flex;
+    border-bottom: 1px solid #CCC;
+    margin-top: -20px;
+}
+
+.section-books .slide {
+    width: 420px;
+    height: 100%;
+    min-height: 300px;
+    display: flex;
+    margin-right: 30px;
+}
+.section-books .slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: left;
+    color: #000;
+    padding: 40px;
+}
+.section-books .slidearea-image {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding: 40px;
+}
+.section-books--title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.section-books--description {
+    font-size: 10px;
+    color: rgb(34, 33, 33);
+    margin-top: 10px;
+    margin-left: 45px;
+       
+}
+.section-books--description .maiusculo {
+    text-transform: uppercase;
+}
+
+.section-books-area .sliders-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-books-area .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.section-books-area .pointer.active {
+    background-color: #b28756;
+}
+
+.section-books--title::before {
+    content: url('../images/check.png');
+    margin-right: 10px;
+    display: inline-block;
+   
+}
+.section-books-area .git {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.section-facts {
+    display: flex;
+}
+.section-fact {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+.section-fact {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.section-fact p {
+    margin-top: 10px;
+    font-size: 10px;
+    color:#999;
+}
+p[name="par"] {
+    margin-top: 30px;
+}
+.section-fact h1 {
+    font-size: 50px;
+    color:#b28756;
+}
+.section-fact h3 {
+    font-size: 30px;
+    color:#999;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+.section-share-area {
+    margin-top: -50px;
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+}
+
+.section-share {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #FFF;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-share-icons img {
+    display: inline-block;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.section-share-icon {
+    display: inline-block;
+    flex-direction: column;
+    width: 80px;
+    height: 30px;
+    margin-left: 20px;
+}
+.section-share-icon h5 {
+    margin-right: -50px;
+    margin-top: -23px;
+    font-size: 9px;
+    color: rgb(167, 164, 164);
+}
+
+#twitter {
+    background-color: #5da9dd;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#linkedin {
+    background-color: #0A66C2;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#facebook {
+    background-color: #4867AA;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#googleplus {
+    background-color: #D54C3F;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+#pinterest {
+    background-color: #E60023;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.section-share-icon1 {
+    display: inline-block;
+    flex-direction: column;
+    width: 180px;
+    height: 30px;
+    margin-left: 20px;
+}
+.section-share-icon1 h5 {
+    margin-right: -120px;
+    margin-top: -23px;
+    color: rgb(167, 164, 164);
+}
+
+
+
+.section-contact {
+    max-width: 450px;
+    margin:auto;
+    text-align: center;
+   
+}
+.section-contact--split {
+    display: flex;
+}
+
+.section-contact--split input:first-child {
+    margin-right: 20px;
+}
+
+.section-contact input[type=text] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+    margin-top: 10px;
+}
+
+.section-contact textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #CCC;
+    outline: 0;
+    margin-top: 10px;
+    resize: none;
+}
+.button-send {
+    display: inline-block;
+    background-color: #b28756;
+    border-color: #b28756;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
 }
